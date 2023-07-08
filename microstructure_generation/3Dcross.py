@@ -16,6 +16,6 @@ cross = cylinder1 + cylinder2 + cylinder3
 # Create the plotter
 p = pv.Plotter()
 p.add_mesh(cross, color="lightblue")
-
+p.export_obj('scene.obj')
 # Show the plot
 p.show()
